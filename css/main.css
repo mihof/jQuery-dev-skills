@@ -1,0 +1,63 @@
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: auto;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: lightgreen;
+  width: 400px;
+}
+
+ul { 
+  justify-self: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  text-align: left;
+  color: lightsalmon;
+  padding: 10px;
+  margin: 10px, 5px;
+  font-weight: bold;
+}
+
+button {
+  border: solid lightgreen;
+  background-color: white;
+  color: lightgreen;
+  padding: 10px 10px;
+  font-weight: bold;
+  margin-left: 20px;
+  outline: none;
+}
+
+#skill_delete {
+  border: lightcoral;
+  background-color: lightcoral;
+  color: white;
+  padding: 5px 5px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+input {
+  width: 300px;
+  border: solid lightgreen;
+  padding: 10px 10px;
+  outline: none;
+}
